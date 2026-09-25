@@ -1,0 +1,43 @@
+DPRO CONTROL 1.2.1 — INDEPENDENT EDITION - Loud and Beyond
+
+REQUIREMENTS
+Apple Silicon Mac (M1 or newer), macOS 15 or later, and an NA2-IO-DPRO
+reachable over Ethernet. No Python installation or browser is needed.
+This build was tested on macOS 26.5.2; Intel Macs are not supported.
+
+INSTALL AND CONNECT
+Unzip DPRO Control-macOS-arm64.zip and move DPRO Control.app to Applications.
+Open the app and allow Local Network access when requested.
+Choose Connect device, select your Ethernet adapter, then connect to the
+automatically discovered address. You can enter an address manually too.
+Disconnect other controller applications before connecting this one.
+
+CONTROLS
+Mic / Line selects the input type. PAD is available in Line mode only.
+Input gain is shown in dB; output attenuation uses 0.5 dB steps, with 0 dB
+as unity gain. Output mute is independent of the attenuation setting.
+Input linking copies input 1 settings (including phantom power and PAD)
+to input 2. Linked adjustments affect both channels.
+Signal meters show live dBFS; values below the display floor show ≤−90.
+Settings are read back from the device. Stale meters clear automatically.
+
+DISTRIBUTION STATUS
+This is an independent controller, not the official Neutrik application.
+It is locally ad-hoc signed, not Developer ID signed or Apple notarized.
+macOS may block the downloaded app. If you trust its source, review the
+app-specific Open Anyway option in System Settings > Privacy & Security.
+Do not disable system-wide security protections.
+
+TROUBLESHOOTING
+If discovery fails, check the Ethernet adapter and System Settings >
+Privacy & Security > Local Network > DPRO Control. Quit and reopen the app
+following permission changes. Manual device IP entry remains available.
+
+DEVICE STATUS
+Use Device status below Connection for feedback and session activity.
+
+LICENSE
+Copyright (c) 2026 Loud and Beyond. Project source is MIT licensed.
+Preserve the copyright/license notice when reusing or sharing the software.
+Bundled third-party software retains its own notices; see LICENSE and
+THIRD-PARTY-NOTICES.md in this archive and the app Resources/Legal folder.

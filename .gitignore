@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+dpro_desktop/build/
+dpro_desktop/dist/
+dpro_desktop/tests/*-results.json
+dpro_desktop/tests/native-*.json
+dpro_desktop/tests/native-*.png
+*.pcap
+*.pcapng
+.env
+*.p12
+*.mobileprovision
+
+# Public distribution is app-only.
+dpro_desktop/
+tools/
+SOURCE-MANIFEST.json
+docs/DEVELOPMENT.md
+docs/development.html
+docs/downloads/*-source.zip
